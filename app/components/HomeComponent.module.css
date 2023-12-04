@@ -1,0 +1,37 @@
+/* app/components/HomeComponent.module.css */
+.container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.headerFooter {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+}
+
+.mainContent {
+  padding: 20px;
+}
+
+.titleH1 {
+  color: #333;
+}
+
