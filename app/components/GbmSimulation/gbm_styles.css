@@ -1,0 +1,57 @@
+:root {
+		--primary-color: #007bff;    /* Primary color for your app */
+		--secondary-color: #6c757d;  /* Secondary color */
+		--background-color: #f8f9fa;  /* Background color */
+		--text-color: #343a40;       /* Text color */
+		--slider-thumb-color: #007bff; /* Slider thumb color */
+		/* Add more colors as needed */
+	  }
+
+	 body {
+		background-color: var(--background-color);
+		color: var(--text-color);
+	  }
+
+	 input[type=range] {
+		/* Slider track color */
+		background-color: var(--secondary-color);
+	  }
+
+	 input[type=range]::-webkit-slider-thumb {
+		/* Slider thumb color for Webkit browsers */
+		background: var(--slider-thumb-color);
+	  }
+
+	 input[type=range]::-moz-range-thumb {
+		/* Slider thumb color for Firefox */
+		background: var(--slider-thumb-color);
+	  }
+    .slider-container {
+            display: flex;
+            align-items: left;
+            justify-content:;
+            margin-bottom: 5mm;
+        }
+
+    .slider-container label {
+            flex-basis: 10%; /* Adjust as needed */
+        }
+
+    .slider-container input[type="range"] {
+            flex-basis: 20%; /* Adjust as needed */
+        }
+
+    .slider-container span {
+            flex-basis: 10%; /* Adjust as needed */
+            text-align: left;
+        }
+	.tag {
+            display: inline-block;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+            padding: 5px 10px;
+            margin: 2px;
+            font-size: 0.9em;
+            color: #333;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
